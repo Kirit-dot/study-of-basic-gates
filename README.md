@@ -65,15 +65,23 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+ module program1(a,b,y1,y2,y3,y4,y5,y6); input a,b; output y1,y2,y3,y4,y5,y6; and g1(y1,a,b); or g2(y2,a,b); nand g3(y3,a,b); nor g4(y4,a,b); xor g5(y5,a,b); not g6(y6,a); endmodule
 
- Developed by: RegisterNumber: 
+ Developed by: RegisterNumber: 25015046
  
 **Logic symbol & Truthtable**
+<img width="1022" height="719" alt="{2AE1A91A-EE03-4349-BD86-53381997BA07}" src="https://github.com/user-attachments/assets/ab5decf2-71a1-4294-909c-4b5b3891b021" />
+
+
 
 **RTL realization Output:** 
+<img width="1121" height="697" alt="{C7111830-999C-49E0-BC52-3B26DC0C8A8B}" src="https://github.com/user-attachments/assets/3b98abe0-bf91-45dc-9c97-bc11f6784007" />
+
 
 **RTL**
+<img width="1173" height="388" alt="image" src="https://github.com/user-attachments/assets/068c82ba-06ca-4ed5-a50a-52945c51c549" />
 
-**Result:**
+
+**Result:**Thus the given logic functions are implemented using their operations are verified using verilog programming.
 
 
